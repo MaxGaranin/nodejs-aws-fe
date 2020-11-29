@@ -20,6 +20,9 @@ axios.interceptors.response.use(
   }
 );
 
+localStorage.setItem('name', 'maxgaranin');
+localStorage.setItem('password', 'TEST_PASSWORD');
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
